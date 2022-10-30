@@ -1,0 +1,100 @@
+/* FONTS */
+@import url("https://fonts.googleapis.com/css?family=VT323");
+
+* {
+  margin: auto;
+}
+
+body {
+  background-color: black;
+  font-family: "VT323", sans-serif;
+  background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  float: center;
+  padding: 10px;
+  color: rgb(255, 255, 255);
+  margin: 0 auto;
+  height: auto;
+  font-size: 3em;
+  letter-spacing: 10px;
+}
+
+.gallery{
+  display: flex;
+  border-radius: 25px;
+  width: 450px;
+  flex-direction: column;
+  margin: 0 auto;
+  height: auto;
+  box-shadow: 4px 4px 15px #000000;
+}
+
+@media only screen and (max-width: 500px) {
+  .gallery {
+    width: 380px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contain {
+  display: flex;
+}
+
+.hero-btn {
+  display: flex;
+  border-radius: 19px;
+  color: white;
+  font-size: 2.9rem;
+  padding: .5rem 7rem;
+  background-color: #000000;  
+  margin-top: 60px;
+  margin-bottom: 150px;
+  font-family: "VT323", sans-serif;
+  cursor: pointer;
+  transition-duration: 0.4s;
+}
+
+.hero-btn:hover {
+     background-color: #ffffff;
+     color: black;
+}
+
+.foot {
+     color: white;
+     text-align: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
+}
+
+.persona {
+     font-size: 2em;
+     color: yellow;
+     margin: auto;
+     line-height: .9em;
+}
+
+.about {
+     flex-direction: column;
+     display: flex;
+     text-align: left;
+     color: white;
+     padding-bottom: 14%;
+     margin: auto;
+     font-size: 2em;
+     padding-left: 10%;
+     padding-right: 10%;
+}
+
+.medium {
+     text-decoration: none;
+     color: #7bdbf0;
+}
